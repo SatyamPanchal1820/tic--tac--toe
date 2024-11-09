@@ -1,0 +1,110 @@
+
+body{
+  background: black;
+  font-family: "Avenir", "Monserrat", sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  background-color: black;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+p{
+  color: red;
+
+}
+
+#btm{
+  border-bottom-width: 10px;
+  border-bottom-color: white;
+}
+
+#gameboard{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 9rem 9rem 9rem;
+  grid-template-rows: 9rem 9rem 9rem;
+  justify-content: center;
+}
+
+#newGame{
+  height: 100%;
+  outline: none;
+  color: red;
+  border: none;
+  text-transform: uppercase;
+  background: none;
+  transition: all 0.3s;
+  font-weight: 700;
+  font-size: inherit;
+  letter-spacing: 1px;
+}
+
+#newGame:hover{
+  color: white;
+  background-color: red;
+}
+
+#stripe{
+  height: 2em;
+  background-color: white;
+  text-align: center;
+}
+
+#winningLine{
+  display: subgrid;
+}
+
+.bt{
+  border-bottom-style: none;
+}
+
+.colWin{
+  background: linear-gradient(90deg, transparent, transparent, transparent, transparent, transparent, transparent, yellow, transparent, transparent, transparent, transparent, transparent, transparent);
+}
+
+.diag1Win{
+  background: linear-gradient(45deg, transparent, transparent, transparent, transparent, transparent, transparent, yellow, transparent, transparent, transparent, transparent, transparent, transparent);
+}
+
+.diag2Win{
+  background: linear-gradient(-45deg, transparent, transparent, transparent, transparent, transparent, transparent, yellow, transparent, transparent, transparent, transparent, transparent, transparent);
+}
+
+.legend{
+  font-size: inherit;
+  font-weight: 700;
+  padding: 20px;
+  letter-spacing: 1px;
+}
+
+.ot{
+  border-right-style: none;
+}
+
+.rowWin{
+  background: linear-gradient(0, transparent, transparent, transparent, transparent, transparent, transparent, yellow, transparent, transparent, transparent, transparent, transparent, transparent);
+}
+
+.rt{
+  border-right-width: 10px;
+  border-right-color: white;
+}
+
+.XO{
+  color: white;
+  background-color: black;
+  outline: none;
+  border-left-style: none;
+  border-top-style: none;
+  font-size: 7rem;
+}
+
+.win{
+  height: 2em;
+  background-color: blue;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>
+    Tic Tac Toe
+    <br>
+    <span id="turn">Player 1's Turn</span>
+  </h1>
+  <div id="stripe">
+    <span class="legend">Player 1 = X</span>
+    <span class="legend">Player 2 = O</span>
+    <button id="newGame">New Game</button>
+    <span id="p1W" class="legend">P1 Wins: 0</span>
+    <span id="p2W" class="legend">P2 Wins: 0</span>
+  </div>
+
+  <div id="gameboard">
+    <button class="XO rt" id="btm" disabled> </button>
+    <button class="XO rt" id="btm" disabled></button>
+    <button class="XO ot" id="btm" disabled></button>
+    <button class="XO rt" id="btm" disabled></button>
+    <button class="XO rt" id="btm" disabled></button>
+    <button class="XO ot" id="btm" disabled></button>
+    <button class="XO rt bt" disabled></button>
+    <button class="XO rt bt" disabled></button>
+    <button class="XO bt ot" disabled></button>
+  </div>
+
+
+<script src="script.js" charset="utf-8"></script>
+</body>
+</html>
